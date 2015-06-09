@@ -1,9 +1,9 @@
-hipchat-room-message-APIv2
+notify-hipchat
 ==========================
 
-This is a simple perl script that will use Hipchat's API v2 to message a room after passing in the room name, authentication token and a message. Also includes features for selecting the colour, notifying the room, passing in an html message, using a proxy and using API v1 should you so choose.
+This is a fork of the simple perl script based on the script originally developed by tobeychris. This will use Hipchat's API v2 to send a message to a room after passing in the room name, authentication token and a message. This also includes features for selecting the colour, notifying the room, passing in an html message, using a proxy and using API v1 if needed.
 
-This script was developed in a CentOS 6.4 environment and has not been tested anywhere else.
+This script was originally developed in a CentOS 6.4 environment. It has been successfully tested in a Windoes 7 Professional (32-bit) environment as well.
 
 Sample Script Output:
 This script will send a notification to hipchat.
