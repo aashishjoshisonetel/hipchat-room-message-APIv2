@@ -34,3 +34,5 @@ Sample Unsuccessful Call (bad token):
 >$hipchat.pl -room Jenkins -token abd -message 'Hello World!' -colour green -proxy http://127.0.0.1:3128 
 Hipchat notification failed!
 401 Unauthorized
+
+A note about the token. My experience has been that this script works fine with a "personal" token only. To generate your personal token go to https://yoursitename.hipchat.com/account/api
