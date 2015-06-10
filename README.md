@@ -35,4 +35,8 @@ Sample Unsuccessful Call (bad token):
 Hipchat notification failed!
 401 Unauthorized
 
-A note about the token. My experience has been that this script works fine with a "personal" token only. To generate your personal token go to https://yoursitename.hipchat.com/account/api
+Note:
+
+A short note about the token to be used for authentication. My experience has been that this script works fine with a "personal" token only. To generate your personal token go to https://yoursitename.hipchat.com/account/api
+
+This isn't a problem with this script, but what token does the Hip Chat API expect. I've tried using an "admin" token but only received 401 failures.
