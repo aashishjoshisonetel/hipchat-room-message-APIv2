@@ -2,7 +2,7 @@
 #
 # Perl script to send a notification to hipchat using either the REST API v1 or v2.
 #
-# Created by Chris Tobey.
+# Originally reated by Chris Tobey, forked by Aashish Joshi
 #
 
 use warnings;
@@ -13,7 +13,7 @@ use LWP::UserAgent;
 my $usage = "This script will send a notification to hipchat.\n
 \tUsage:
 \t\t-room      Hipchat room name or ID.                      Example: '-room \"test\"'
-\t\t-token     Hipchat Authentication token.                 Example: '-token \"abc\"'
+\t\t-token     Hipchat personal authentication token.        Example: '-token \"abc\"'
 \t\t-message   Message to be sent to room.                   Example: '-message \"Hello World!\"'
 \t\t-type      (Optional) Hipchat message type (text|html).  Example: '-type \"text\"'                   (default: text)
 \t\t-API       (Optional) Hipchat API Version. (v1|v2).      Example: '-type \"v2\"'                     (default: v2)
